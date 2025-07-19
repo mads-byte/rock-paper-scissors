@@ -1,0 +1,18 @@
+User chooses 1 of 3 buttons
+Validate user input
+Display user choice in document
+Randomize computer choice
+Display computer choice in document
+Compare two choices
+    -   If user chose rock & computer chose rock then it's a tie
+    -   If user chose rock & computer chose paper then computer wins
+    -   If user chose rock & computer chose scissors then user wins
+    -   If user chose paper & computer chose rock then user wins
+    -   If user chose paper & computer chose paper then it's a tie
+    -   If user chose paper & computer chose scissors then computer wins
+    -   If user chose scissors & computer chose rock then computer wins
+    -   If user chose scissors & computer chose paper then user wins
+    -   If user chose scissors & computer chose scissors then it's a tie
+Display result in document
+User clicks reset
+Reset on click
