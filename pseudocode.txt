@@ -14,5 +14,9 @@ Compare two choices
     -   If user chose scissors & computer chose paper then user wins
     -   If user chose scissors & computer chose scissors then it's a tie
 Display result in document
+Add the win/loss/tie to a counter
+Add the round to a counter
+Stop the game at 10 rounds
+Pick the champion based on who won the most rounds
 User clicks reset
 Reset on click

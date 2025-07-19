@@ -3,6 +3,7 @@ const rock = document.getElementById("rock-btn"); // This initializes my buttons
 const paper = document.getElementById("paper-btn");
 const scissors = document.getElementById("scissors-btn");
 const reset = document.getElementById("reset-btn");
+const startbtn = document.querySelector(".startPage--Button")
 let timesWon = 0;  //Starts the score board off at zero
 let timesLost = 0;
 let timesTied = 0;
@@ -70,6 +71,23 @@ function checkGameEnd() {
         reset.disabled = true //makes the reset button unusable until the end of the game
     }
 }
+
+startbtn.addEventListener("click", function (e) {
+    startbtn.style.display = "none";
+    rock.style.display = "inline";
+    paper.style.display = "inline";
+    scissors.style.display = "inline";
+    reset.style.display = "inline";
+    document.getElementById("youDisplay").style.display = "block";
+    document.getElementById("comDisplay").style.display = "block";
+    document.getElementById("lossesDisplay").style.display = "block";
+    document.getElementById("tiesDisplay").style.display = "block";
+    document.getElementById("winsDisplay").style.display = "block";
+    document.getElementById("roundsDisplay").style.display = "block";
+    document.getElementById("championDisplay").style.display = "block";
+    document.getElementById("winnerDisplay").style.display = "block";
+
+});
 
 
 
