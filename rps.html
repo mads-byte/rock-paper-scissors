@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div id="inGame">
+        <button value="rock" id="rock-btn">Rock</button>
+        <button value="paper" id="paper-btn">Paper</button>
+        <button value="scissors" id="scissors-btn">Scissors</button>
+        <h1 id="youDisplay">You:<span id="your-choice"></span></h1>
+        <h1 id="comDisplay">Computer:<span id="com-choice"></span></h1>
+        <h1 id="winnerDisplay">Result:<span id="winner"></span></h1>
+        <h1 id="winsDisplay">Wins: <span id="wins"></span></h1>
+        <h1 id="lossesDisplay">Losses: <span id="losses"></span></h1>
+        <h1 id="tiesDisplay">Ties: <span id="ties"></span></h1>
+        <h1 id="roundsDisplay">Rounds: <span id="rounds"></span></h1>
+        <h1 id="championDisplay">Champion:<span id="champion"></span></h1>
+        <button id="reset-btn">Play Again</button>
+    </div>
+    <div class="startScreen">
+        <button class="startPage startPage--Button">Start Game</button>
+    </div>
+    <script src="rps.js"></script>
+</body>
+
+</html>
