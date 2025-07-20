@@ -4,6 +4,8 @@
 }
 
 @keyframes bounce {
+
+    /* bounce animation for game buttons */
     0% {
         top: 30px
     }
@@ -24,6 +26,7 @@ body {
 
 #inGame {
     display: none;
+    /* this hides all in-game content in order to display the start page */
 }
 
 .startScreen {
@@ -38,6 +41,7 @@ body {
     font-weight: 400;
     padding: 30px;
     cursor: pointer;
+    /* lets user know that this element is clickable */
     margin: auto;
     margin-top: 48vh;
     font-size: 50px;
@@ -61,10 +65,12 @@ body {
     padding: 60px;
     margin: 70px;
     cursor: pointer;
+    /* lets user know that this element is clickable */
     position: relative;
     animation-name: bounce;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
+    /* makes animation continuous*/
 }
 
 .gameButton:hover {
@@ -83,7 +89,9 @@ body {
     font-size: 30px;
     font-family: "Michroma", sans-serif;
     width: 30%;
+    /* ensures that all stat sections take up the same space */
     margin-left: 1.65%;
+    /* margins are used to take up any leftover space to space elements evenly */
     margin-right: 1.65%;
     margin-top: 30px;
     padding-top: 10px;
@@ -108,4 +116,5 @@ body {
     margin-top: 25px;
     padding: 20px;
     cursor: pointer;
+    /* lets user know that this element is clickable */
 }
